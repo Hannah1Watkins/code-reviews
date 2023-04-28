@@ -1,2 +1,3 @@
 def palindrome_number(x):
-    pass
+    n = ''.join(filter(str.sialnum, s.lower()))
+    return n == n[::-1]
